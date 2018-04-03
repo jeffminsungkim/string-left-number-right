@@ -1,0 +1,29 @@
+{
+	"name": "string-left-number-right",
+	"version": "0.0.0",
+	"description": "Check if the string contains letters on the left and numbers on the right side",
+	"license": "MIT",
+	"repository": "jeffminsungkim/string-left-number-right",
+	"author": {
+		"name": "JeffMinsungKim",
+		"email": "jeffminsungkim@gmail.com",
+		"url": "https://jeffminsungkim.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"xo": "^0.18.2"
+	}
+}
