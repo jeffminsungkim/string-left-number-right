@@ -1,6 +1,6 @@
 {
 	"name": "string-left-number-right",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Check if the string contains letters on the left and numbers on the right side",
 	"license": "MIT",
 	"repository": "jeffminsungkim/string-left-number-right",
@@ -19,11 +19,19 @@
 		"index.js"
 	],
 	"keywords": [
-		""
+		"is",
+		"contain",
+		"number",
+		"string",
+		"letters",
+		"numeric",
+		"check",
+		"detect",
+		"pattern"
 	],
 	"dependencies": {},
 	"devDependencies": {
-		"ava": "^0.20.0",
-		"xo": "^0.18.2"
+		"ava": "*",
+		"xo": "*"
 	}
 }
