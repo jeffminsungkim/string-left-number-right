@@ -1,4 +1,4 @@
-# string-left-number-right [![Build Status](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)
+# string-left-number-right [![Build Status](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)[![Node Version Required][Node Version]][Node URL]
 
 > Check if a string contains letters on the left and numbers on the right side
 
@@ -41,3 +41,7 @@ Please consider [trim](https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 ## License
 
 MIT © [JeffMinsungKim](https://jeffminsungkim.com)
+
+
+[Node Version]: https://img.shields.io/node/v/string-left-number-right.svg?style=flat-square&label=works%20on%20node
+[Node URL]: https://www.npmjs.com/package/string-left-number-right
