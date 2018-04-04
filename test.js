@@ -1,11 +1,21 @@
 import test from 'ava';
 import m from '.';
 
-test('title', t => {
-	const err = t.throws(() => {
-		m(123);
-	}, TypeError);
-	t.is(err.message, 'Expected a string, got number');
-
-	t.is(m('unicorns'), 'unicorns & rainbows');
+test(t => {
+	t.true(m('abc123'));
+	t.false(m('abc 123'));
+	t.false(m('abc123 '));
+	t.false(m(' abc123'));
+	t.false(m('   abc123   '));
+	t.false(m('abc-123'));
+	t.false(m('abc123#'));
+	t.false(m('123abc'));
+	t.false(m('123 abc'));
+	t.false(m('123-abc'));
+	t.false(m('abc123abc'));
+	t.false(m('a'));
+	t.false(m('abc'));
+	t.false(m('0'));
+	t.false(m('123'));
+	t.is(m(1), undefined);
 });

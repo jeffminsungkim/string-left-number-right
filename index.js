@@ -1,10 +1,8 @@
 'use strict';
-module.exports = (input, opts) => {
-	if (typeof input !== 'string') {
-		throw new TypeError(`Expected a string, got ${typeof input}`);
+module.exports = n => {
+	const format = /^([a-zA-Z]+[0-9])[0-9]*$/;
+
+	if (Object.prototype.toString.call(n) === '[object String]') {
+		return format.test(n);
 	}
-
-	opts = opts || {};
-
-	return input + ' & ' + (opts.postfix || 'rainbows');
 };
