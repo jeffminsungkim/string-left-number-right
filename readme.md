@@ -1,4 +1,4 @@
-# string-left-number-right [![Build Status](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)[![Node Version Required][Node Version]][Node URL]
+# string-left-number-right [![Build Status](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master) [![Node Version Required][Node Version]][Node URL]
 
 > Check if a string contains letters on the left and numbers on the right side
 
