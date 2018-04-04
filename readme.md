@@ -1,6 +1,6 @@
 # string-left-number-right [![Build Status](https://travis-ci.org/jeffminsungkim/string-left-number-right.svg?branch=master)](https://travis-ci.org/jeffminsungkim/string-left-number-right)
 
-> Check if the string contains letters on the left and numbers on the right side
+> Check if a string contains letters on the left and numbers on the right side
 
 
 ## Install
@@ -15,29 +15,27 @@ $ npm install string-left-number-right
 ```js
 const stringLeftNumberRight = require('string-left-number-right');
 
-stringLeftNumberRight('unicorns');
-//=> 'unicorns & rainbows'
+stringLeftNumberRight('orange8888');
+//=> true
+
+stringLeftNumberRight('orange');
+//=> false
+
+stringLeftNumberRight('8888orange');
+//=> false
+
+stringLeftNumberRight('8888');
+//=> false
+
+stringLeftNumberRight('orange8888abc');
+//=> false
+
+stringLeftNumberRight(8888);
+//=> undefined
 ```
 
-
-## API
-
-### stringLeftNumberRight(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+_Note: This module doesn't consider whitespace.
+Please consider [trim](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim) the string beforehand._
 
 
 ## License
