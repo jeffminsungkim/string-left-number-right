@@ -27,7 +27,8 @@
 		"numeric",
 		"check",
 		"detect",
-		"pattern"
+		"pattern",
+		"regex"
 	],
 	"dependencies": {},
 	"devDependencies": {
